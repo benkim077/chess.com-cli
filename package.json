@@ -1,0 +1,17 @@
+{
+  "name": "chess.com-cli",
+  "version": "1.0.0",
+  "description": "play chess.com by command line interface.",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "ts-compile": "npm run prebuild && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.5",
+    "rimraf": "^5.0.1"
+  }
+}
